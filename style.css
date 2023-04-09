@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario {
+    background-color: #F5F5F5;
+    padding: 10px 50px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.formUsuarios {
+    width: 40vw;
+    background-color: #F68787;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    /* font-family: ; */
+    border: 3px solid #e26764;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
+.formUsuarios h2 {
+    font-size: 22px;
+    /* margin-bottom: 10px; */
+    /* padding: 5px; */
+    border-radius: 4px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-registrar {
+    width: 18vw;
+    background-color: #e26764;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 1px 1px black;
+    margin-top: 7px;
+}
+
+.btn-registrar:hover {
+    transition: .4s ease-in-out;
+    background-color: #DBC8C8;
+    cursor: pointer;
+}
+
+.inputContainer label {
+    font-size: 15px;
+    font-weight: bolt;
+
+
+}
+
+.inputContainer input,
+select {
+    width: 90%;
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid rgb(30, 30, 30);
+    padding: 10px;
+    box-shadow: 2px 1px black;
+    margin-top: 5px;
+}
+
+.usuariosRespuesta {
+    background-image: url(./services1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* backdrop-filter: brightness(50%); */
+    /* background-color: #DBC8C8; */
+    /* min-height: 90vh; */
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    /* border: 2px solid #e26764; */
+    width: 40vw;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    min-height: 80vh;
+   
+}
+
+/* media query */
+@media screen and (max-width: 952px) {
+
+    .formUsuarios {
+        width: 70%;
+
+    }
+
+    .formulario {
+        /* background-color: #F5F5F5; */
+        padding: 10px 50px 100px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+
+
+    }
+
+    .usuariosRespuesta {
+        /* background-image: url(./delivery2.svg); */
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+        width: 70%;
+        /* padding: 30px; */
+        /* margin: auto; */
+
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .formUsuarios {
+        width: 90%;
+
+    }
+
+    .usuariosRespuesta {
+        width: 90%;
+    }
+
+}
