@@ -91,7 +91,7 @@ select {
     margin: auto;
     margin-top: 100px;
     min-height: 80vh;
-   
+
 }
 
 /* media query */
@@ -126,6 +126,7 @@ select {
         /* margin: auto; */
 
     }
+
     .btn-registrar {
         width: 90%;
     }
@@ -141,5 +142,9 @@ select {
     .usuariosRespuesta {
         width: 90%;
     }
+
+    /* .btn-registrar {
+        width: 90%;
+    } */
 
 }
