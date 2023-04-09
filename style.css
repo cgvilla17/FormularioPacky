@@ -126,6 +126,9 @@ select {
         /* margin: auto; */
 
     }
+    .btn-registrar {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 850px) {
